@@ -12,7 +12,7 @@ rhour = rday % (60 * 60)
 # (60 * 60) is the number of seconds per hour.
 
 min = rhour // 60
-rsecs = rhour % 60
+sec = rhour % 60
 
 #ordered it to the highest conversion which is day/s to no conversion needed which is seconds.
-print(secs, "Seconds is", day, "Day/s and", hour, "Hour/s and", min ,"Minute/s and", rsecs, "Second/s")
+print(secs, "Seconds is", day, "Day/s and", hour, "Hour/s and", min ,"Minute/s and", sec, "Second/s")
